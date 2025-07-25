@@ -1,0 +1,58 @@
+name: sol_edu
+description: SolEdu - Climate Education Without Borders
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI and Icons
+  cupertino_icons: ^1.0.2
+  
+  # State Management (optional, for future enhancements)
+  provider: ^6.0.5
+  
+  # Local Storage (for offline features)
+  shared_preferences: ^2.2.2
+  
+  # HTTP requests (for future API integration)
+  http: ^1.1.0
+  
+  # JSON handling
+  json_annotation: ^4.8.1
+  
+  # Path utilities
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.7
+
+# Flutter configuration
+flutter:
+  uses-material-design: true
+  
+  # Add assets (images, fonts, etc.)
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # Custom fonts (optional)
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
